@@ -9,8 +9,6 @@
 #import "YDSDKRequest.h"
 #import "YDSDKError.h"
 
-static NSString* const kBaseURL = @"http://yuedu.fm";
-
 @interface YDSDKRequest () {
     NSURLRequest*           _request;
     NSURLSessionDataTask*   _task;
@@ -43,7 +41,7 @@ static NSString* const kBaseURL = @"http://yuedu.fm";
 }
 
 - (NSURLRequest *)urlRequest {
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", kBaseURL, self.uri]];
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", _baseURL, self.uri]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     return request;
 }

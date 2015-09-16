@@ -8,8 +8,11 @@
 
 #import "YDSDKManager.h"
 
+static NSString* const kBaseURL = @"http://yuedu.fm";
+
 @interface YDSDKManager () <NSURLSessionDelegate> {
-    NSURLSession* _session;
+    NSURLSession*   _session;
+    NSMutableSet*   _requests;
 }
 
 @end
@@ -33,6 +36,50 @@
         _session = [NSURLSession sessionWithConfiguration:sessionConfig delegate:self delegateQueue:nil];
     }
     return self;
+}
+
+- (void)addRequestSafely:(YDSDKRequest* )request {
+    @synchronized(_requests) {
+        [_requests addObject:request];
+    }
+}
+
+- (void)removeRequestSafely:(YDSDKRequest* )request {
+    @synchronized(_requests) {
+        [_requests removeObject:request];
+    }
+}
+
+- (void)removeAllRequestSafely {
+    @synchronized(_requests) {
+        for (YDSDKRequest* request in _requests) {
+            [request cancel];
+        }
+        
+        [_requests removeAllObjects];
+    }
+}
+
+- (YDSDKRequest* )request:(YDSDKRequest* )request completion:(YDSDKCompletion)completion {
+    request.completion = ^(YDSDKRequest* request, YDSDKError* error) {
+        [self removeRequestSafely:request];
+        if (completion) completion(request, error);
+    };
+    request.baseURL = kBaseURL;
+    request.session = _session;
+    
+    [self addRequestSafely:request];
+    [request start];
+    return request;
+}
+
+- (void)cancelRequest:(YDSDKRequest* )request {
+    [self removeRequestSafely:request];
+    [request cancel];
+}
+
+- (void)cancelAllRequest {
+    [self removeAllRequestSafely];
 }
 
 @end

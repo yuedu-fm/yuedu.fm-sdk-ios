@@ -7,7 +7,18 @@
 //
 
 #import "YDSDKArticleRequest.h"
+#import "TFHpple.h"
 
 @implementation YDSDKArticleRequest
+
+- (NSString* )uri {
+    return [NSString stringWithFormat:@"/article/%ld", (long)self.articleId];
+}
+
+- (void)processResponseData:(NSData *)data {
+    TFHpple* doc = [[TFHpple alloc] initWithHTMLData:data];
+    
+    NSLog(@"==========1111");
+}
 
 @end

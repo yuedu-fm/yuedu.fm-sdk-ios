@@ -18,13 +18,13 @@
  * @param successed 请求成功还是失败，当successed=YES表示成功，返回的参数位于request中，当successed=NO表示请求失败，失败原因位于_error中，详见ICError
  *
  */
-typedef void(^ICCompletion)(YDSDKRequest* request, YDSDKError* error);
+typedef void(^YDSDKCompletion)(YDSDKRequest* request, YDSDKError* error);
 
 @interface YDSDKRequest : NSObject
 
 @property (nonatomic, strong) NSString* baseURL;
 @property (nonatomic, strong) NSURLSession* session;
-@property (nonatomic, copy) ICCompletion completion;
+@property (nonatomic, copy) YDSDKCompletion completion;
 
 + (instancetype)request;
 

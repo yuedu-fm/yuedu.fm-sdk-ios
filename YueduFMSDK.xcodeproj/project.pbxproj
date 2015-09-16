@@ -67,6 +67,7 @@
 		E4DD91571BA9C1960045F222 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		E4DD91591BA9C9940045F222 /* YDSDKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKError.h; sourceTree = "<group>"; };
 		E4DD915A1BA9C9940045F222 /* YDSDKError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKError.m; sourceTree = "<group>"; };
+		E4DD915D1BA9CC1B0045F222 /* YDSDKDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSDKDebug.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +118,7 @@
 				E446D3641BA9347700597354 /* Requests */,
 				E446D3651BA934E000597354 /* YDSDKManager.h */,
 				E446D3661BA934E000597354 /* YDSDKManager.m */,
+				E4DD915D1BA9CC1B0045F222 /* YDSDKDebug.h */,
 				E4DD91591BA9C9940045F222 /* YDSDKError.h */,
 				E4DD915A1BA9C9940045F222 /* YDSDKError.m */,
 				E446D34A1BA9345800597354 /* Supporting Files */,
