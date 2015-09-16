@@ -8,12 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for YueduFMSDK.
 FOUNDATION_EXPORT double YueduFMSDKVersionNumber;
-
-//! Project version string for YueduFMSDK.
 FOUNDATION_EXPORT const unsigned char YueduFMSDKVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <YueduFMSDK/PublicHeader.h>
 
 

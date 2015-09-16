@@ -10,4 +10,6 @@
 
 @interface YDSDKManager : NSObject
 
++ (instancetype)defaultManager;
+
 @end

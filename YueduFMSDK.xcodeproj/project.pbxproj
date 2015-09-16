@@ -18,6 +18,17 @@
 		E446D3741BA9354E00597354 /* YDSDKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D3721BA9354E00597354 /* YDSDKModel.m */; };
 		E446D3771BA9356A00597354 /* YDSDKArticleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3751BA9356A00597354 /* YDSDKArticleModel.h */; };
 		E446D3781BA9356A00597354 /* YDSDKArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D3761BA9356A00597354 /* YDSDKArticleModel.m */; };
+		E446D37B1BA935B100597354 /* YDSDKArticleRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3791BA935B100597354 /* YDSDKArticleRequest.h */; };
+		E446D37C1BA935B100597354 /* YDSDKArticleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D37A1BA935B100597354 /* YDSDKArticleRequest.m */; };
+		E4DD914D1BA9C1160045F222 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD91471BA9C1160045F222 /* TFHpple.h */; };
+		E4DD914E1BA9C1160045F222 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DD91481BA9C1160045F222 /* TFHpple.m */; };
+		E4DD914F1BA9C1160045F222 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD91491BA9C1160045F222 /* TFHppleElement.h */; };
+		E4DD91501BA9C1160045F222 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DD914A1BA9C1160045F222 /* TFHppleElement.m */; };
+		E4DD91511BA9C1160045F222 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD914B1BA9C1160045F222 /* XPathQuery.h */; };
+		E4DD91521BA9C1160045F222 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DD914C1BA9C1160045F222 /* XPathQuery.m */; };
+		E4DD91581BA9C1960045F222 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DD91571BA9C1960045F222 /* libxml2.dylib */; };
+		E4DD915B1BA9C9940045F222 /* YDSDKError.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD91591BA9C9940045F222 /* YDSDKError.h */; };
+		E4DD915C1BA9C9940045F222 /* YDSDKError.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DD915A1BA9C9940045F222 /* YDSDKError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		E446D3721BA9354E00597354 /* YDSDKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKModel.m; sourceTree = "<group>"; };
 		E446D3751BA9356A00597354 /* YDSDKArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKArticleModel.h; sourceTree = "<group>"; };
 		E446D3761BA9356A00597354 /* YDSDKArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKArticleModel.m; sourceTree = "<group>"; };
+		E446D3791BA935B100597354 /* YDSDKArticleRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKArticleRequest.h; sourceTree = "<group>"; };
+		E446D37A1BA935B100597354 /* YDSDKArticleRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKArticleRequest.m; sourceTree = "<group>"; };
+		E4DD91471BA9C1160045F222 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		E4DD91481BA9C1160045F222 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		E4DD91491BA9C1160045F222 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		E4DD914A1BA9C1160045F222 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		E4DD914B1BA9C1160045F222 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		E4DD914C1BA9C1160045F222 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		E4DD91571BA9C1960045F222 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E4DD91591BA9C9940045F222 /* YDSDKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKError.h; sourceTree = "<group>"; };
+		E4DD915A1BA9C9940045F222 /* YDSDKError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DD91581BA9C1960045F222 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +92,7 @@
 		E446D33D1BA9345800597354 = {
 			isa = PBXGroup;
 			children = (
+				E4DD91571BA9C1960045F222 /* libxml2.dylib */,
 				E446D3491BA9345800597354 /* YueduFMSDK */,
 				E446D3561BA9345800597354 /* YueduFMSDKTests */,
 				E446D3481BA9345800597354 /* Products */,
@@ -87,11 +111,14 @@
 		E446D3491BA9345800597354 /* YueduFMSDK */ = {
 			isa = PBXGroup;
 			children = (
+				E446D34C1BA9345800597354 /* YueduFMSDK.h */,
+				E4DD91451BA9C10F0045F222 /* Vendors */,
 				E446D3631BA9347700597354 /* Models */,
 				E446D3641BA9347700597354 /* Requests */,
-				E446D34C1BA9345800597354 /* YueduFMSDK.h */,
 				E446D3651BA934E000597354 /* YDSDKManager.h */,
 				E446D3661BA934E000597354 /* YDSDKManager.m */,
+				E4DD91591BA9C9940045F222 /* YDSDKError.h */,
+				E4DD915A1BA9C9940045F222 /* YDSDKError.m */,
 				E446D34A1BA9345800597354 /* Supporting Files */,
 			);
 			path = YueduFMSDK;
@@ -138,8 +165,31 @@
 			children = (
 				E446D3691BA9350000597354 /* YDSDKRequest.h */,
 				E446D36A1BA9350000597354 /* YDSDKRequest.m */,
+				E446D3791BA935B100597354 /* YDSDKArticleRequest.h */,
+				E446D37A1BA935B100597354 /* YDSDKArticleRequest.m */,
 			);
 			path = Requests;
+			sourceTree = "<group>";
+		};
+		E4DD91451BA9C10F0045F222 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				E4DD91461BA9C1160045F222 /* hpple */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		E4DD91461BA9C1160045F222 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				E4DD91471BA9C1160045F222 /* TFHpple.h */,
+				E4DD91481BA9C1160045F222 /* TFHpple.m */,
+				E4DD91491BA9C1160045F222 /* TFHppleElement.h */,
+				E4DD914A1BA9C1160045F222 /* TFHppleElement.m */,
+				E4DD914B1BA9C1160045F222 /* XPathQuery.h */,
+				E4DD914C1BA9C1160045F222 /* XPathQuery.m */,
+			);
+			path = hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +199,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DD914D1BA9C1160045F222 /* TFHpple.h in Headers */,
 				E446D3671BA934E000597354 /* YDSDKManager.h in Headers */,
+				E446D37B1BA935B100597354 /* YDSDKArticleRequest.h in Headers */,
+				E4DD915B1BA9C9940045F222 /* YDSDKError.h in Headers */,
+				E4DD91511BA9C1160045F222 /* XPathQuery.h in Headers */,
+				E4DD914F1BA9C1160045F222 /* TFHppleElement.h in Headers */,
 				E446D3771BA9356A00597354 /* YDSDKArticleModel.h in Headers */,
 				E446D34D1BA9345800597354 /* YueduFMSDK.h in Headers */,
 				E446D3731BA9354E00597354 /* YDSDKModel.h in Headers */,
@@ -253,6 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E446D37C1BA935B100597354 /* YDSDKArticleRequest.m in Sources */,
+				E4DD91501BA9C1160045F222 /* TFHppleElement.m in Sources */,
+				E4DD91521BA9C1160045F222 /* XPathQuery.m in Sources */,
+				E4DD914E1BA9C1160045F222 /* TFHpple.m in Sources */,
+				E4DD915C1BA9C9940045F222 /* YDSDKError.m in Sources */,
 				E446D3741BA9354E00597354 /* YDSDKModel.m in Sources */,
 				E446D3681BA934E000597354 /* YDSDKManager.m in Sources */,
 				E446D3781BA9356A00597354 /* YDSDKArticleModel.m in Sources */,
@@ -374,6 +434,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = YueduFMSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -389,6 +454,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = YueduFMSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -446,6 +516,7 @@
 				E446D35F1BA9345800597354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E446D3601BA9345800597354 /* Build configuration list for PBXNativeTarget "YueduFMSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +525,7 @@
 				E446D3621BA9345800597354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
