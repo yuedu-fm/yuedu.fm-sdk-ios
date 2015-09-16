@@ -54,9 +54,10 @@ current_dir() {
 usage() {
 cat << EOF
 
-USAGE: $0 <destination> [Release|Debug]
+USAGE: $0 <Destination> [Release|Debug]
 
 DESCRIPTION:
+    build and package framework.
 
 EOF
 }
@@ -77,5 +78,23 @@ function build {
     xcodebuild -sdk iphoneos -configuration $CONFIG
 }
 
+function package {
+    cp -rf build/$CONFIG-iphoneos/YueduFMSDK.framework build
+    lipo -create build/$CONFIG-iphoneos/YueduFMSDK.framework/YueduFMSDK build/$CONFIG-iphonesimulator/YueduFMSDK.framework/YueduFMSDK -output build/YueduFMSDK.framework/YueduFMSDK
+}
+
+function install {
+    cp -rf build/YueduFMSDK.framework $DST_PATH
+}
+
+info "Build ... "
 build
+
+info "Package ... "
+package
+
+info "Install to $DST_PATH ... "
+install
+
+info "Done."
 
