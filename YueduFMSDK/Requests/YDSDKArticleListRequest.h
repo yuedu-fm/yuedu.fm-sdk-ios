@@ -8,7 +8,7 @@
 
 #import <YueduFMSDK/YueduFMSDK.h>
 
-@interface YDSDKArticleListRequest : YDSDKListRequest
+@interface YDSDKArticleListRequest : YDSDKRequest
 
 /** 文章id, 返回该id对应的列表，0表示获取最新 */
 @property (nonatomic, assign) int articleId;
