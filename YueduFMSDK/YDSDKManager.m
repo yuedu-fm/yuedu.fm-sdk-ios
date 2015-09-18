@@ -7,8 +7,9 @@
 //
 
 #import "YDSDKManager.h"
+#import "YDSDKConfigModel.h"
 
-static NSString* const kBaseURL = @"http://yuedu.fm";
+static NSString* const kBaseURL = @"http://7xlwed.com1.z0.glb.clouddn.com";
 
 @interface YDSDKManager () <NSURLSessionDelegate> {
     NSURLSession*   _session;
@@ -34,6 +35,7 @@ static NSString* const kBaseURL = @"http://yuedu.fm";
     if (self) {
         NSURLSessionConfiguration *sessionConfig = [NSURLSessionConfiguration defaultSessionConfiguration];
         _session = [NSURLSession sessionWithConfiguration:sessionConfig delegate:self delegateQueue:nil];
+        _requests = [NSMutableSet set];
     }
     return self;
 }
@@ -65,7 +67,8 @@ static NSString* const kBaseURL = @"http://yuedu.fm";
         [self removeRequestSafely:request];
         if (completion) completion(request, error);
     };
-    request.baseURL = kBaseURL;
+    
+    request.config = self.config;
     request.session = _session;
     
     [self addRequestSafely:request];

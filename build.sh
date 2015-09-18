@@ -74,6 +74,9 @@ if [ "$2" == "Release" ];then
 fi
 
 function build {
+    xcodebuild clean -sdk iphonesimulator -configuration $CONFIG
+    xcodebuild clean -sdk iphoneos -configuration $CONFIG
+
     xcodebuild -sdk iphonesimulator -configuration $CONFIG
     xcodebuild -sdk iphoneos -configuration $CONFIG
 }

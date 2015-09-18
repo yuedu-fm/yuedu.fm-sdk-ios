@@ -10,4 +10,9 @@
 
 @implementation YDSDKModel
 
++ (id)modelFromData:(NSDictionary* )data {
+    if (!data || ![[data allKeys] count]) return nil;
+    return [[[self class] alloc] init];
+}
+
 @end

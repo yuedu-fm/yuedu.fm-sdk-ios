@@ -10,25 +10,29 @@
 		E446D34D1BA9345800597354 /* YueduFMSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D34C1BA9345800597354 /* YueduFMSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E446D3531BA9345800597354 /* YueduFMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E446D3471BA9345800597354 /* YueduFMSDK.framework */; };
 		E446D35A1BA9345800597354 /* YueduFMSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D3591BA9345800597354 /* YueduFMSDKTests.m */; };
-		E446D3671BA934E000597354 /* YDSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3651BA934E000597354 /* YDSDKManager.h */; };
+		E446D3671BA934E000597354 /* YDSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3651BA934E000597354 /* YDSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E446D3681BA934E000597354 /* YDSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D3661BA934E000597354 /* YDSDKManager.m */; };
-		E446D36B1BA9350000597354 /* YDSDKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3691BA9350000597354 /* YDSDKRequest.h */; };
+		E446D36B1BA9350000597354 /* YDSDKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3691BA9350000597354 /* YDSDKRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E446D36C1BA9350000597354 /* YDSDKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D36A1BA9350000597354 /* YDSDKRequest.m */; };
-		E446D3731BA9354E00597354 /* YDSDKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3711BA9354E00597354 /* YDSDKModel.h */; };
+		E446D3731BA9354E00597354 /* YDSDKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3711BA9354E00597354 /* YDSDKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E446D3741BA9354E00597354 /* YDSDKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D3721BA9354E00597354 /* YDSDKModel.m */; };
-		E446D3771BA9356A00597354 /* YDSDKArticleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3751BA9356A00597354 /* YDSDKArticleModel.h */; };
+		E446D3771BA9356A00597354 /* YDSDKArticleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3751BA9356A00597354 /* YDSDKArticleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E446D3781BA9356A00597354 /* YDSDKArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D3761BA9356A00597354 /* YDSDKArticleModel.m */; };
-		E446D37B1BA935B100597354 /* YDSDKArticleRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3791BA935B100597354 /* YDSDKArticleRequest.h */; };
-		E446D37C1BA935B100597354 /* YDSDKArticleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D37A1BA935B100597354 /* YDSDKArticleRequest.m */; };
-		E4DD914D1BA9C1160045F222 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD91471BA9C1160045F222 /* TFHpple.h */; };
-		E4DD914E1BA9C1160045F222 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DD91481BA9C1160045F222 /* TFHpple.m */; };
-		E4DD914F1BA9C1160045F222 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD91491BA9C1160045F222 /* TFHppleElement.h */; };
-		E4DD91501BA9C1160045F222 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DD914A1BA9C1160045F222 /* TFHppleElement.m */; };
-		E4DD91511BA9C1160045F222 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD914B1BA9C1160045F222 /* XPathQuery.h */; };
-		E4DD91521BA9C1160045F222 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DD914C1BA9C1160045F222 /* XPathQuery.m */; };
 		E4DD91581BA9C1960045F222 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DD91571BA9C1960045F222 /* libxml2.dylib */; };
-		E4DD915B1BA9C9940045F222 /* YDSDKError.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD91591BA9C9940045F222 /* YDSDKError.h */; };
+		E4DD915B1BA9C9940045F222 /* YDSDKError.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD91591BA9C9940045F222 /* YDSDKError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4DD915C1BA9C9940045F222 /* YDSDKError.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DD915A1BA9C9940045F222 /* YDSDKError.m */; };
+		E4E40B701BAC676A00A2BE1E /* YDSDKChannelModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B6E1BAC676A00A2BE1E /* YDSDKChannelModel.h */; };
+		E4E40B711BAC676A00A2BE1E /* YDSDKChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B6F1BAC676A00A2BE1E /* YDSDKChannelModel.m */; };
+		E4E40B781BAC6B9100A2BE1E /* YDSDKListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B761BAC6B9100A2BE1E /* YDSDKListRequest.h */; };
+		E4E40B791BAC6B9100A2BE1E /* YDSDKListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B771BAC6B9100A2BE1E /* YDSDKListRequest.m */; };
+		E4E40B7C1BAC6BD000A2BE1E /* YDSDKArticleListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B7A1BAC6BD000A2BE1E /* YDSDKArticleListRequest.h */; };
+		E4E40B7D1BAC6BD000A2BE1E /* YDSDKArticleListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B7B1BAC6BD000A2BE1E /* YDSDKArticleListRequest.m */; };
+		E4E40B801BAC6BF700A2BE1E /* YDSDKChannelListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B7E1BAC6BF700A2BE1E /* YDSDKChannelListRequest.h */; };
+		E4E40B811BAC6BF700A2BE1E /* YDSDKChannelListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B7F1BAC6BF700A2BE1E /* YDSDKChannelListRequest.m */; };
+		E4E40B841BAC6DC300A2BE1E /* YDSDKConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B821BAC6DC300A2BE1E /* YDSDKConfigModel.h */; };
+		E4E40B851BAC6DC300A2BE1E /* YDSDKConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B831BAC6DC300A2BE1E /* YDSDKConfigModel.m */; };
+		E4E40B881BAC72A600A2BE1E /* YDSDKConfigRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B861BAC72A600A2BE1E /* YDSDKConfigRequest.h */; };
+		E4E40B891BAC72A600A2BE1E /* YDSDKConfigRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B871BAC72A600A2BE1E /* YDSDKConfigRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,18 +60,22 @@
 		E446D3721BA9354E00597354 /* YDSDKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKModel.m; sourceTree = "<group>"; };
 		E446D3751BA9356A00597354 /* YDSDKArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKArticleModel.h; sourceTree = "<group>"; };
 		E446D3761BA9356A00597354 /* YDSDKArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKArticleModel.m; sourceTree = "<group>"; };
-		E446D3791BA935B100597354 /* YDSDKArticleRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKArticleRequest.h; sourceTree = "<group>"; };
-		E446D37A1BA935B100597354 /* YDSDKArticleRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKArticleRequest.m; sourceTree = "<group>"; };
-		E4DD91471BA9C1160045F222 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
-		E4DD91481BA9C1160045F222 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
-		E4DD91491BA9C1160045F222 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
-		E4DD914A1BA9C1160045F222 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
-		E4DD914B1BA9C1160045F222 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
-		E4DD914C1BA9C1160045F222 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		E4DD91571BA9C1960045F222 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		E4DD91591BA9C9940045F222 /* YDSDKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKError.h; sourceTree = "<group>"; };
 		E4DD915A1BA9C9940045F222 /* YDSDKError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKError.m; sourceTree = "<group>"; };
 		E4DD915D1BA9CC1B0045F222 /* YDSDKDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSDKDebug.h; sourceTree = "<group>"; };
+		E4E40B6E1BAC676A00A2BE1E /* YDSDKChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKChannelModel.h; sourceTree = "<group>"; };
+		E4E40B6F1BAC676A00A2BE1E /* YDSDKChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKChannelModel.m; sourceTree = "<group>"; };
+		E4E40B761BAC6B9100A2BE1E /* YDSDKListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKListRequest.h; sourceTree = "<group>"; };
+		E4E40B771BAC6B9100A2BE1E /* YDSDKListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKListRequest.m; sourceTree = "<group>"; };
+		E4E40B7A1BAC6BD000A2BE1E /* YDSDKArticleListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKArticleListRequest.h; sourceTree = "<group>"; };
+		E4E40B7B1BAC6BD000A2BE1E /* YDSDKArticleListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKArticleListRequest.m; sourceTree = "<group>"; };
+		E4E40B7E1BAC6BF700A2BE1E /* YDSDKChannelListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKChannelListRequest.h; sourceTree = "<group>"; };
+		E4E40B7F1BAC6BF700A2BE1E /* YDSDKChannelListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKChannelListRequest.m; sourceTree = "<group>"; };
+		E4E40B821BAC6DC300A2BE1E /* YDSDKConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKConfigModel.h; sourceTree = "<group>"; };
+		E4E40B831BAC6DC300A2BE1E /* YDSDKConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKConfigModel.m; sourceTree = "<group>"; };
+		E4E40B861BAC72A600A2BE1E /* YDSDKConfigRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKConfigRequest.h; sourceTree = "<group>"; };
+		E4E40B871BAC72A600A2BE1E /* YDSDKConfigRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKConfigRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +164,12 @@
 			children = (
 				E446D3711BA9354E00597354 /* YDSDKModel.h */,
 				E446D3721BA9354E00597354 /* YDSDKModel.m */,
+				E4E40B821BAC6DC300A2BE1E /* YDSDKConfigModel.h */,
+				E4E40B831BAC6DC300A2BE1E /* YDSDKConfigModel.m */,
 				E446D3751BA9356A00597354 /* YDSDKArticleModel.h */,
 				E446D3761BA9356A00597354 /* YDSDKArticleModel.m */,
+				E4E40B6E1BAC676A00A2BE1E /* YDSDKChannelModel.h */,
+				E4E40B6F1BAC676A00A2BE1E /* YDSDKChannelModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,8 +179,14 @@
 			children = (
 				E446D3691BA9350000597354 /* YDSDKRequest.h */,
 				E446D36A1BA9350000597354 /* YDSDKRequest.m */,
-				E446D3791BA935B100597354 /* YDSDKArticleRequest.h */,
-				E446D37A1BA935B100597354 /* YDSDKArticleRequest.m */,
+				E4E40B761BAC6B9100A2BE1E /* YDSDKListRequest.h */,
+				E4E40B771BAC6B9100A2BE1E /* YDSDKListRequest.m */,
+				E4E40B861BAC72A600A2BE1E /* YDSDKConfigRequest.h */,
+				E4E40B871BAC72A600A2BE1E /* YDSDKConfigRequest.m */,
+				E4E40B7A1BAC6BD000A2BE1E /* YDSDKArticleListRequest.h */,
+				E4E40B7B1BAC6BD000A2BE1E /* YDSDKArticleListRequest.m */,
+				E4E40B7E1BAC6BF700A2BE1E /* YDSDKChannelListRequest.h */,
+				E4E40B7F1BAC6BF700A2BE1E /* YDSDKChannelListRequest.m */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -176,22 +194,8 @@
 		E4DD91451BA9C10F0045F222 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				E4DD91461BA9C1160045F222 /* hpple */,
 			);
 			path = Vendors;
-			sourceTree = "<group>";
-		};
-		E4DD91461BA9C1160045F222 /* hpple */ = {
-			isa = PBXGroup;
-			children = (
-				E4DD91471BA9C1160045F222 /* TFHpple.h */,
-				E4DD91481BA9C1160045F222 /* TFHpple.m */,
-				E4DD91491BA9C1160045F222 /* TFHppleElement.h */,
-				E4DD914A1BA9C1160045F222 /* TFHppleElement.m */,
-				E4DD914B1BA9C1160045F222 /* XPathQuery.h */,
-				E4DD914C1BA9C1160045F222 /* XPathQuery.m */,
-			);
-			path = hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,16 +205,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4DD914D1BA9C1160045F222 /* TFHpple.h in Headers */,
+				E4E40B881BAC72A600A2BE1E /* YDSDKConfigRequest.h in Headers */,
 				E446D3671BA934E000597354 /* YDSDKManager.h in Headers */,
-				E446D37B1BA935B100597354 /* YDSDKArticleRequest.h in Headers */,
 				E4DD915B1BA9C9940045F222 /* YDSDKError.h in Headers */,
-				E4DD91511BA9C1160045F222 /* XPathQuery.h in Headers */,
-				E4DD914F1BA9C1160045F222 /* TFHppleElement.h in Headers */,
 				E446D3771BA9356A00597354 /* YDSDKArticleModel.h in Headers */,
-				E446D34D1BA9345800597354 /* YueduFMSDK.h in Headers */,
 				E446D3731BA9354E00597354 /* YDSDKModel.h in Headers */,
+				E4E40B841BAC6DC300A2BE1E /* YDSDKConfigModel.h in Headers */,
 				E446D36B1BA9350000597354 /* YDSDKRequest.h in Headers */,
+				E4E40B701BAC676A00A2BE1E /* YDSDKChannelModel.h in Headers */,
+				E4E40B801BAC6BF700A2BE1E /* YDSDKChannelListRequest.h in Headers */,
+				E4E40B781BAC6B9100A2BE1E /* YDSDKListRequest.h in Headers */,
+				E446D34D1BA9345800597354 /* YueduFMSDK.h in Headers */,
+				E4E40B7C1BAC6BD000A2BE1E /* YDSDKArticleListRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,13 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E446D37C1BA935B100597354 /* YDSDKArticleRequest.m in Sources */,
-				E4DD91501BA9C1160045F222 /* TFHppleElement.m in Sources */,
-				E4DD91521BA9C1160045F222 /* XPathQuery.m in Sources */,
-				E4DD914E1BA9C1160045F222 /* TFHpple.m in Sources */,
+				E4E40B811BAC6BF700A2BE1E /* YDSDKChannelListRequest.m in Sources */,
+				E4E40B851BAC6DC300A2BE1E /* YDSDKConfigModel.m in Sources */,
+				E4E40B711BAC676A00A2BE1E /* YDSDKChannelModel.m in Sources */,
 				E4DD915C1BA9C9940045F222 /* YDSDKError.m in Sources */,
 				E446D3741BA9354E00597354 /* YDSDKModel.m in Sources */,
 				E446D3681BA934E000597354 /* YDSDKManager.m in Sources */,
+				E4E40B7D1BAC6BD000A2BE1E /* YDSDKArticleListRequest.m in Sources */,
+				E4E40B791BAC6B9100A2BE1E /* YDSDKListRequest.m in Sources */,
+				E4E40B891BAC72A600A2BE1E /* YDSDKConfigRequest.m in Sources */,
 				E446D3781BA9356A00597354 /* YDSDKArticleModel.m in Sources */,
 				E446D36C1BA9350000597354 /* YDSDKRequest.m in Sources */,
 			);
@@ -444,6 +452,7 @@
 				INFOPLIST_FILE = YueduFMSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -464,6 +473,7 @@
 				INFOPLIST_FILE = YueduFMSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

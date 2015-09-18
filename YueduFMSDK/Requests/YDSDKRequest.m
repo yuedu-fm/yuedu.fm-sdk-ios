@@ -8,9 +8,10 @@
 
 #import "YDSDKRequest.h"
 #import "YDSDKError.h"
+#import "YDSDKDebug.h"
 
 @interface YDSDKRequest () {
-    NSURLRequest*           _request;
+    NSMutableURLRequest*    _request;
     NSURLSessionDataTask*   _task;
     BOOL                    _done;
     BOOL                    _isCanceled;
@@ -40,21 +41,28 @@
     [_task cancel];
 }
 
-- (NSURLRequest *)urlRequest {
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", _baseURL, self.uri]];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+- (NSMutableURLRequest *)urlRequest {
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@", self.uri]];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     return request;
 }
 
 - (void)didRequest {
+    YDSDKDebug(@"Request:%@", _request.URL.absoluteString);
+
     _task = [self.session dataTaskWithRequest:_request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         if (!error) {
-            [self processResponseData:data];
+            NSDictionary* json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+            
+            YDSDKDebug(@"Response:%@", json?json:@"");
+
+            [self processResponseData:json];
             [self didFinish:nil];
         } else {
             [self didFinish:[YDSDKError errorWithCode:error.code]];
         }
     }];
+    [_task resume];
 }
 
 - (void)didFinish:(YDSDKError* )error {
@@ -68,6 +76,10 @@
 
 - (NSString* )uri {
     return @"";
+}
+
+- (BOOL)shouldUseConfig {
+    return YES;
 }
 
 - (void)processResponseData:(NSDictionary* )data {

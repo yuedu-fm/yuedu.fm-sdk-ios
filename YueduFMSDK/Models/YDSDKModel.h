@@ -10,4 +10,8 @@
 
 @interface YDSDKModel : NSObject
 
+@property (nonatomic, assign) int aid;
+
++ (id)modelFromData:(NSDictionary* )data;
+
 @end

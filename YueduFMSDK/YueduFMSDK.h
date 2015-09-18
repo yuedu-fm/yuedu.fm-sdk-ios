@@ -11,4 +11,17 @@
 FOUNDATION_EXPORT double YueduFMSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char YueduFMSDKVersionString[];
 
+#import <YueduFMSDK/YDSDKManager.h>
+#import <YueduFMSDK/YDSDKError.h>
 
+//Models
+#import <YueduFMSDK/YDSDKModel.h>
+#import <YueduFMSDK/YDSDKArticleModel.h>
+#import <YueduFMSDK/YDSDKConfigModel.h>
+#import <YueduFMSDK/YDSDKChannelModel.h>
+
+//Requests
+#import <YueduFMSDK/YDSDKRequest.h>
+#import <YueduFMSDK/YDSDKConfigRequest.h>
+#import <YueduFMSDK/YDSDKArticleListRequest.h>
+#import <YueduFMSDK/YDSDKChannelListRequest.h>

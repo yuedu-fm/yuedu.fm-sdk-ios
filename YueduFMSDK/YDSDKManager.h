@@ -9,9 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <YueduFMSDK/YDSDKRequest.h>
 
+@class YDSDKConfigModel;
+
 @interface YDSDKManager : NSObject
 
 + (instancetype)defaultManager;
+
+/** 获取YDSDKConfigModel后必须设置，否则后续业务无法执行 */
+@property (nonatomic, strong) YDSDKConfigModel* config;
 
 /**
  * 异步发送请求

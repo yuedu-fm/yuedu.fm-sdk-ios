@@ -10,6 +10,7 @@
 
 @class YDSDKRequest;
 @class YDSDKError;
+@class YDSDKConfigModel;
 
 /**
  * 定义请求完成的Block
@@ -22,7 +23,7 @@ typedef void(^YDSDKCompletion)(YDSDKRequest* request, YDSDKError* error);
 
 @interface YDSDKRequest : NSObject
 
-@property (nonatomic, strong) NSString* baseURL;
+@property (nonatomic, strong) YDSDKConfigModel* config;
 @property (nonatomic, strong) NSURLSession* session;
 @property (nonatomic, copy) YDSDKCompletion completion;
 
@@ -33,6 +34,8 @@ typedef void(^YDSDKCompletion)(YDSDKRequest* request, YDSDKError* error);
 - (void)cancel;
 
 /** 需要在子类实现 */
+- (BOOL)shouldUseConfig;
+
 - (NSString* )uri;
 
 /**
@@ -40,6 +43,6 @@ typedef void(^YDSDKCompletion)(YDSDKRequest* request, YDSDKError* error);
  *
  * @param data 返回的数据部分
  */
-- (void)processResponseData:(NSData* )data;
+- (void)processResponseData:(NSDictionary* )data;
 
 @end
