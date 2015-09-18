@@ -21,17 +21,17 @@
 		E4DD91581BA9C1960045F222 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DD91571BA9C1960045F222 /* libxml2.dylib */; };
 		E4DD915B1BA9C9940045F222 /* YDSDKError.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD91591BA9C9940045F222 /* YDSDKError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4DD915C1BA9C9940045F222 /* YDSDKError.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DD915A1BA9C9940045F222 /* YDSDKError.m */; };
-		E4E40B701BAC676A00A2BE1E /* YDSDKChannelModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B6E1BAC676A00A2BE1E /* YDSDKChannelModel.h */; };
+		E4E40B701BAC676A00A2BE1E /* YDSDKChannelModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B6E1BAC676A00A2BE1E /* YDSDKChannelModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4E40B711BAC676A00A2BE1E /* YDSDKChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B6F1BAC676A00A2BE1E /* YDSDKChannelModel.m */; };
-		E4E40B781BAC6B9100A2BE1E /* YDSDKListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B761BAC6B9100A2BE1E /* YDSDKListRequest.h */; };
+		E4E40B781BAC6B9100A2BE1E /* YDSDKListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B761BAC6B9100A2BE1E /* YDSDKListRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4E40B791BAC6B9100A2BE1E /* YDSDKListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B771BAC6B9100A2BE1E /* YDSDKListRequest.m */; };
-		E4E40B7C1BAC6BD000A2BE1E /* YDSDKArticleListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B7A1BAC6BD000A2BE1E /* YDSDKArticleListRequest.h */; };
+		E4E40B7C1BAC6BD000A2BE1E /* YDSDKArticleListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B7A1BAC6BD000A2BE1E /* YDSDKArticleListRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4E40B7D1BAC6BD000A2BE1E /* YDSDKArticleListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B7B1BAC6BD000A2BE1E /* YDSDKArticleListRequest.m */; };
-		E4E40B801BAC6BF700A2BE1E /* YDSDKChannelListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B7E1BAC6BF700A2BE1E /* YDSDKChannelListRequest.h */; };
+		E4E40B801BAC6BF700A2BE1E /* YDSDKChannelListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B7E1BAC6BF700A2BE1E /* YDSDKChannelListRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4E40B811BAC6BF700A2BE1E /* YDSDKChannelListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B7F1BAC6BF700A2BE1E /* YDSDKChannelListRequest.m */; };
-		E4E40B841BAC6DC300A2BE1E /* YDSDKConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B821BAC6DC300A2BE1E /* YDSDKConfigModel.h */; };
+		E4E40B841BAC6DC300A2BE1E /* YDSDKConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B821BAC6DC300A2BE1E /* YDSDKConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4E40B851BAC6DC300A2BE1E /* YDSDKConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B831BAC6DC300A2BE1E /* YDSDKConfigModel.m */; };
-		E4E40B881BAC72A600A2BE1E /* YDSDKConfigRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B861BAC72A600A2BE1E /* YDSDKConfigRequest.h */; };
+		E4E40B881BAC72A600A2BE1E /* YDSDKConfigRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B861BAC72A600A2BE1E /* YDSDKConfigRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4E40B891BAC72A600A2BE1E /* YDSDKConfigRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E40B871BAC72A600A2BE1E /* YDSDKConfigRequest.m */; };
 /* End PBXBuildFile section */
 
@@ -205,18 +205,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E40B881BAC72A600A2BE1E /* YDSDKConfigRequest.h in Headers */,
 				E446D3671BA934E000597354 /* YDSDKManager.h in Headers */,
 				E4DD915B1BA9C9940045F222 /* YDSDKError.h in Headers */,
 				E446D3771BA9356A00597354 /* YDSDKArticleModel.h in Headers */,
 				E446D3731BA9354E00597354 /* YDSDKModel.h in Headers */,
+				E4E40B881BAC72A600A2BE1E /* YDSDKConfigRequest.h in Headers */,
 				E4E40B841BAC6DC300A2BE1E /* YDSDKConfigModel.h in Headers */,
-				E446D36B1BA9350000597354 /* YDSDKRequest.h in Headers */,
 				E4E40B701BAC676A00A2BE1E /* YDSDKChannelModel.h in Headers */,
 				E4E40B801BAC6BF700A2BE1E /* YDSDKChannelListRequest.h in Headers */,
 				E4E40B781BAC6B9100A2BE1E /* YDSDKListRequest.h in Headers */,
-				E446D34D1BA9345800597354 /* YueduFMSDK.h in Headers */,
 				E4E40B7C1BAC6BD000A2BE1E /* YDSDKArticleListRequest.h in Headers */,
+				E446D36B1BA9350000597354 /* YDSDKRequest.h in Headers */,
+				E446D34D1BA9345800597354 /* YueduFMSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

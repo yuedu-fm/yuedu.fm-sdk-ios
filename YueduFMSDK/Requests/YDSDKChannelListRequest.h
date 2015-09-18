@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 StarNet. All rights reserved.
 //
 
-#import "YDSDKListRequest.h"
+#import <YueduFMSDK/YueduFMSDK.h>
 
 @interface YDSDKChannelListRequest : YDSDKListRequest
 
