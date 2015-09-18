@@ -14,7 +14,7 @@
     YDSDKChannelModel* model = [super modelFromData:data];
     if (model) {
         model.aid   = [data[@"id"] intValue];
-        model.name  = data[@""];
+        model.name  = data[@"name"];
     }
     return model;
 }

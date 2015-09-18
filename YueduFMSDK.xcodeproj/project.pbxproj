@@ -18,9 +18,9 @@
 		E446D3741BA9354E00597354 /* YDSDKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D3721BA9354E00597354 /* YDSDKModel.m */; };
 		E446D3771BA9356A00597354 /* YDSDKArticleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E446D3751BA9356A00597354 /* YDSDKArticleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E446D3781BA9356A00597354 /* YDSDKArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E446D3761BA9356A00597354 /* YDSDKArticleModel.m */; };
-		E4D5225D1BAC7ADB002164AA /* YDSDKArticleListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D522591BAC7ADB002164AA /* YDSDKArticleListRequest.h */; };
+		E4D5225D1BAC7ADB002164AA /* YDSDKArticleListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D522591BAC7ADB002164AA /* YDSDKArticleListRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4D5225E1BAC7ADB002164AA /* YDSDKArticleListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D5225A1BAC7ADB002164AA /* YDSDKArticleListRequest.m */; };
-		E4D5225F1BAC7ADB002164AA /* YDSDKChannelListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D5225B1BAC7ADB002164AA /* YDSDKChannelListRequest.h */; };
+		E4D5225F1BAC7ADB002164AA /* YDSDKChannelListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D5225B1BAC7ADB002164AA /* YDSDKChannelListRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4D522601BAC7ADB002164AA /* YDSDKChannelListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D5225C1BAC7ADB002164AA /* YDSDKChannelListRequest.m */; };
 		E4DD91581BA9C1960045F222 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DD91571BA9C1960045F222 /* libxml2.dylib */; };
 		E4DD915B1BA9C9940045F222 /* YDSDKError.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD91591BA9C9940045F222 /* YDSDKError.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -207,14 +207,14 @@
 			files = (
 				E446D3671BA934E000597354 /* YDSDKManager.h in Headers */,
 				E4DD915B1BA9C9940045F222 /* YDSDKError.h in Headers */,
+				E4E40B781BAC6B9100A2BE1E /* YDSDKListRequest.h in Headers */,
 				E446D3771BA9356A00597354 /* YDSDKArticleModel.h in Headers */,
 				E446D3731BA9354E00597354 /* YDSDKModel.h in Headers */,
-				E4D5225F1BAC7ADB002164AA /* YDSDKChannelListRequest.h in Headers */,
 				E4E40B881BAC72A600A2BE1E /* YDSDKConfigRequest.h in Headers */,
 				E4E40B841BAC6DC300A2BE1E /* YDSDKConfigModel.h in Headers */,
 				E4E40B701BAC676A00A2BE1E /* YDSDKChannelModel.h in Headers */,
+				E4D5225F1BAC7ADB002164AA /* YDSDKChannelListRequest.h in Headers */,
 				E4D5225D1BAC7ADB002164AA /* YDSDKArticleListRequest.h in Headers */,
-				E4E40B781BAC6B9100A2BE1E /* YDSDKListRequest.h in Headers */,
 				E446D36B1BA9350000597354 /* YDSDKRequest.h in Headers */,
 				E446D34D1BA9345800597354 /* YueduFMSDK.h in Headers */,
 			);
@@ -318,12 +318,12 @@
 			files = (
 				E4E40B851BAC6DC300A2BE1E /* YDSDKConfigModel.m in Sources */,
 				E4E40B711BAC676A00A2BE1E /* YDSDKChannelModel.m in Sources */,
+				E4E40B791BAC6B9100A2BE1E /* YDSDKListRequest.m in Sources */,
 				E4DD915C1BA9C9940045F222 /* YDSDKError.m in Sources */,
 				E446D3741BA9354E00597354 /* YDSDKModel.m in Sources */,
 				E4D522601BAC7ADB002164AA /* YDSDKChannelListRequest.m in Sources */,
 				E4D5225E1BAC7ADB002164AA /* YDSDKArticleListRequest.m in Sources */,
 				E446D3681BA934E000597354 /* YDSDKManager.m in Sources */,
-				E4E40B791BAC6B9100A2BE1E /* YDSDKListRequest.m in Sources */,
 				E4E40B891BAC72A600A2BE1E /* YDSDKConfigRequest.m in Sources */,
 				E446D3781BA9356A00597354 /* YDSDKArticleModel.m in Sources */,
 				E446D36C1BA9350000597354 /* YDSDKRequest.m in Sources */,

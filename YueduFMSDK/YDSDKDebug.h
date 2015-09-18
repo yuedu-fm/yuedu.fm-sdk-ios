@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 StarNet. All rights reserved.
 //
 
-#ifdef DEBUG
+#ifndef DEBUG
 #define __FILE_WITHOUT_PATH__ (strrchr(__FILE__, '/') ? strrchr(__FILE__, '/') + 1 : __FILE__)
 
 #define YDSDKDebug(fmt, ...) \

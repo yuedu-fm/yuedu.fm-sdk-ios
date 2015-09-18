@@ -15,6 +15,15 @@
     return [NSString stringWithFormat:@"%@%@", self.config.apiChannels, self.config.apiSuffix];
 }
 
+- (void)processResponseData:(NSDictionary* )data {
+    NSArray* array = data[@"list"];
+    NSMutableArray* result = [NSMutableArray array];
+    for (NSDictionary* item in array) {
+        [result addObject:[self.modelClass modelFromData:item]];
+    }
+    _modelArray = [NSArray arrayWithArray:result];
+}
+
 - (Class)modelClass {
     return [YDSDKChannelModel class];
 }

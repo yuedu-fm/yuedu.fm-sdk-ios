@@ -24,5 +24,5 @@ FOUNDATION_EXPORT const unsigned char YueduFMSDKVersionString[];
 #import <YueduFMSDK/YDSDKRequest.h>
 #import <YueduFMSDK/YDSDKListRequest.h>
 #import <YueduFMSDK/YDSDKConfigRequest.h>
-//#import <YueduFMSDK/YDSDKArticleListRequest.h>
-//#import <YueduFMSDK/YDSDKChannelListRequest.h>
+#import <YueduFMSDK/YDSDKArticleListRequest.h>
+#import <YueduFMSDK/YDSDKChannelListRequest.h>
