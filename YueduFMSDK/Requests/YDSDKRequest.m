@@ -48,21 +48,25 @@
 }
 
 - (void)didRequest {
-    YDSDKDebug(@"Request:%@", _request.URL.absoluteString);
+    
+    if ([self shouldUseConfig] && self.config) {
+        [self didFinish:[YDSDKError errorWithCode:YDSDKErrorCodeNotConfiged]];
+    } else {
+        YDSDKDebug(@"Request:%@", _request.URL.absoluteString);
+        _task = [self.session dataTaskWithRequest:_request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+            if (!error) {
+                NSDictionary* json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+                
+                YDSDKDebug(@"Response:%@", json?json:@"");
 
-    _task = [self.session dataTaskWithRequest:_request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-        if (!error) {
-            NSDictionary* json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
-            
-            YDSDKDebug(@"Response:%@", json?json:@"");
-
-            [self processResponseData:json];
-            [self didFinish:nil];
-        } else {
-            [self didFinish:[YDSDKError errorWithCode:error.code]];
-        }
-    }];
-    [_task resume];
+                [self processResponseData:json];
+                [self didFinish:nil];
+            } else {
+                [self didFinish:[YDSDKError errorWithCode:error.code]];
+            }
+        }];
+        [_task resume];
+    }
 }
 
 - (void)didFinish:(YDSDKError* )error {

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSUInteger, YDSDKErrorCode) {
-    YDSDKErrorCodeUnknown = 0,
+    YDSDKErrorCodeNotConfiged = 10000,
 };
 
 @interface YDSDKError : NSError
