@@ -49,7 +49,7 @@
 
 - (void)didRequest {
     
-    if ([self shouldUseConfig] && self.config) {
+    if ([self shouldUseConfig] && !self.config) {
         [self didFinish:[YDSDKError errorWithCode:YDSDKErrorCodeNotConfiged]];
     } else {
         YDSDKDebug(@"Request:%@", _request.URL.absoluteString);

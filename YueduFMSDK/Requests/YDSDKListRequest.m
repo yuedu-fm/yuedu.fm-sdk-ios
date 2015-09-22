@@ -21,6 +21,7 @@
         [result addObject:[self.modelClass modelFromData:item]];
     }
     _modelArray = [NSArray arrayWithArray:result];
+    _next = [data[@"next"] intValue];
 }
 
 @end

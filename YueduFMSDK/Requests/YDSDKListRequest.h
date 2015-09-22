@@ -12,6 +12,8 @@
 
 @property (nonatomic, readonly) NSArray* modelArray;
 
+@property (nonatomic, readonly) int next;
+
 // 子类继承
 - (Class)modelClass;
 
