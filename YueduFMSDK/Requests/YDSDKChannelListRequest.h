@@ -10,9 +10,5 @@
 
 @interface YDSDKChannelListRequest : YDSDKRequest
 
-@property (nonatomic, readonly) NSArray* modelArray;
-
-// 子类继承
-- (Class)modelClass;
 
 @end
