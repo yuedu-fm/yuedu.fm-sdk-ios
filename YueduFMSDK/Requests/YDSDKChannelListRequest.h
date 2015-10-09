@@ -8,7 +8,7 @@
 
 #import <YueduFMSDK/YueduFMSDK.h>
 
-@interface YDSDKChannelListRequest : YDSDKRequest
+@interface YDSDKChannelListRequest : YDSDKListRequest
 
 
 @end

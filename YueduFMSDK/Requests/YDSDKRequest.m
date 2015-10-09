@@ -44,6 +44,7 @@
 - (NSMutableURLRequest *)urlRequest {
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@", self.uri]];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    request.timeoutInterval = 3.0f;
     return request;
 }
 
@@ -56,7 +57,6 @@
         _task = [self.session dataTaskWithRequest:_request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
             if (!error) {
                 NSDictionary* json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
-                
                 YDSDKDebug(@"Response:%@", json?json:@"");
 
                 [self processResponseData:json];
