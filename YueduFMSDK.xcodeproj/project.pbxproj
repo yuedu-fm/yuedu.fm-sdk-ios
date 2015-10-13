@@ -22,7 +22,6 @@
 		E4D5225E1BAC7ADB002164AA /* YDSDKArticleListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D5225A1BAC7ADB002164AA /* YDSDKArticleListRequest.m */; };
 		E4D5225F1BAC7ADB002164AA /* YDSDKChannelListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D5225B1BAC7ADB002164AA /* YDSDKChannelListRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4D522601BAC7ADB002164AA /* YDSDKChannelListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D5225C1BAC7ADB002164AA /* YDSDKChannelListRequest.m */; };
-		E4DD91581BA9C1960045F222 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DD91571BA9C1960045F222 /* libxml2.dylib */; };
 		E4DD915B1BA9C9940045F222 /* YDSDKError.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD91591BA9C9940045F222 /* YDSDKError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4DD915C1BA9C9940045F222 /* YDSDKError.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DD915A1BA9C9940045F222 /* YDSDKError.m */; };
 		E4E40B701BAC676A00A2BE1E /* YDSDKChannelModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E40B6E1BAC676A00A2BE1E /* YDSDKChannelModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,7 +63,6 @@
 		E4D5225A1BAC7ADB002164AA /* YDSDKArticleListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKArticleListRequest.m; sourceTree = "<group>"; };
 		E4D5225B1BAC7ADB002164AA /* YDSDKChannelListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKChannelListRequest.h; sourceTree = "<group>"; };
 		E4D5225C1BAC7ADB002164AA /* YDSDKChannelListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKChannelListRequest.m; sourceTree = "<group>"; };
-		E4DD91571BA9C1960045F222 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		E4DD91591BA9C9940045F222 /* YDSDKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKError.h; sourceTree = "<group>"; };
 		E4DD915A1BA9C9940045F222 /* YDSDKError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSDKError.m; sourceTree = "<group>"; };
 		E4DD915D1BA9CC1B0045F222 /* YDSDKDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDSDKDebug.h; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4DD91581BA9C1960045F222 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +98,6 @@
 		E446D33D1BA9345800597354 = {
 			isa = PBXGroup;
 			children = (
-				E4DD91571BA9C1960045F222 /* libxml2.dylib */,
 				E446D3491BA9345800597354 /* YueduFMSDK */,
 				E446D3561BA9345800597354 /* YueduFMSDKTests */,
 				E446D3481BA9345800597354 /* Products */,
