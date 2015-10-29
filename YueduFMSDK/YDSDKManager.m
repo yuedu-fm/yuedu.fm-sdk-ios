@@ -35,7 +35,7 @@ static NSString* const kBaseURL = @"http://7xlwed.com1.z0.glb.clouddn.com";
     if (self) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
         config.timeoutIntervalForRequest = 3.0f;
-        config.requestCachePolicy = NSURLRequestReloadIgnoringLocalCacheData;
+        config.requestCachePolicy = NSURLRequestReloadIgnoringLocalAndRemoteCacheData;
         _session = [NSURLSession sessionWithConfiguration:config delegate:self delegateQueue:nil];
         _requests = [NSMutableSet set];
     }
