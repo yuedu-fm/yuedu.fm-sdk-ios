@@ -11,6 +11,7 @@
 
 @class YDSDKConfigModel;
 
+/** SDK管理器 */
 @interface YDSDKManager : NSObject
 
 + (instancetype)defaultManager;

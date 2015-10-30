@@ -8,6 +8,7 @@
 
 #import <YueduFMSDK/YueduFMSDK.h>
 
+/** 频道Model */
 @interface YDSDKChannelModel : YDSDKModel
 
 /** 频道名字 */

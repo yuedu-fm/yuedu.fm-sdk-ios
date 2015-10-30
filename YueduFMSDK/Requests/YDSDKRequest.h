@@ -21,21 +21,33 @@
  */
 typedef void(^YDSDKCompletion)(YDSDKRequest* request, YDSDKError* error);
 
+/**
+ * 请求基类，所有业务请求都将继承此
+ */
 @interface YDSDKRequest : NSObject
 
+/** 配置信息，@see YDSDKConfigModel */
 @property (nonatomic, strong) YDSDKConfigModel* config;
+
+/** 请求session */
 @property (nonatomic, strong) NSURLSession* session;
+
+/** 请求结束回调 */
 @property (nonatomic, copy) YDSDKCompletion completion;
 
+/** 请求类方法 */
 + (instancetype)request;
 
+/** 开始请求 */
 - (void)start;
 
+/** 取消请求 */
 - (void)cancel;
 
-/** 需要在子类实现 */
+/** 是否需要使用配置（需要在子类实现） */
 - (BOOL)shouldUseConfig;
 
+/** 请求的uri（需要在子类实现） */
 - (NSString* )uri;
 
 /**

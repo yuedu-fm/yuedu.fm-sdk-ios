@@ -8,7 +8,7 @@
 
 #import <YueduFMSDK/YueduFMSDK.h>
 
+/** 获取频道列表 */
 @interface YDSDKChannelListRequest : YDSDKListRequest
-
 
 @end

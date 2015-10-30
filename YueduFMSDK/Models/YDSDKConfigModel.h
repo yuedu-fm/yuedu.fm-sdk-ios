@@ -8,6 +8,7 @@
 
 #import <YueduFMSDK/YueduFMSDK.h>
 
+/** 配置Model */
 @interface YDSDKConfigModel : YDSDKModel
 
 /** 网址 */

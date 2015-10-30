@@ -8,8 +8,10 @@
 
 #import <YueduFMSDK/YDSDKListRequest.h>
 
+/** 获取文章列表 */
 @interface YDSDKArticleListRequest : YDSDKListRequest
 
+/** 获取的起点位置 */
 @property (nonatomic, assign) int articleId;
 
 @end

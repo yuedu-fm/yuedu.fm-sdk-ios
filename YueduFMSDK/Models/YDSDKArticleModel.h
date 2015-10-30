@@ -8,6 +8,7 @@
 
 #import <YueduFMSDK/YueduFMSDK.h>
 
+/** 文章Model */
 @interface YDSDKArticleModel : YDSDKModel
 
 /** 频道 */
