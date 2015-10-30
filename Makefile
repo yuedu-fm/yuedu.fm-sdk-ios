@@ -2,6 +2,9 @@ all: build doc
 build:
 	./build.sh ../YueduFM/YueduFM/Vendors Release
 
+debug:
+	./build.sh ../YueduFM/YueduFM/Vendors Debug
+
 doc:
 	@echo "生成文档..."
 	appledoc --output build/appledoc --project-name YueduFMSDK --project-company pawpaw --company-id com.pawpaw build/YueduFMSDK.framework/Headers
