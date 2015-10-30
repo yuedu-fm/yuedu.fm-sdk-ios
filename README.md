@@ -1,6 +1,6 @@
 # yuedufm-sdk-ios
 
-该sdk是针对yuedu.fm网站而设计的聚合资源的访问API，目前这样聚合资源存放在七牛中. 文档详见:[doc/com.pawpaw.YueduFMSDK.docset](doc/com.pawpaw.YueduFMSDK.docset/Contents/Resources/Documents)
+该sdk是针对yuedu.fm网站而设计的聚合资源的访问API，目前这样聚合资源存放在七牛中. 文档详见:[doc/com.pawpaw.YueduFMSDK.docset](doc/com.pawpaw.YueduFMSDK.docset)
 
 ### 特性
 * Config - 获取配置信息（详见yuedu.fm-fetcher）
