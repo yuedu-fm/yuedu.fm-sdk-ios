@@ -21,10 +21,9 @@
 YDSDKConfigRequest* req = [YDSDKConfigRequest request];
 [[YDSDKManager defaultManager] request:req completion:^(YDSDKRequest *request, YDSDKError *error) {
     if (!error) {
-//成功
+		//成功
     } else {
     	//失败
-        if (completion) completion(error);
     }
 }];
 </pre>
