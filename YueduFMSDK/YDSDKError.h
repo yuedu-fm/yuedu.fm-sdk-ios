@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+/** 错误码 */
 typedef NS_ENUM(NSUInteger, YDSDKErrorCode) {
     /** 未配置 */
     YDSDKErrorCodeNotConfiged = 10000,
