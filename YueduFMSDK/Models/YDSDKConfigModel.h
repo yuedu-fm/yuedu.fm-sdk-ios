@@ -29,4 +29,7 @@
 /** 文章api */
 @property (nonatomic, strong) NSString* apiArticles;
 
+/** 允许下载 */
+@property (nonatomic, assign) BOOL allowDownload;
+
 @end

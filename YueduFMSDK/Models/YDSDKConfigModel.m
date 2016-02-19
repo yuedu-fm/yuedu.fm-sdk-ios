@@ -18,6 +18,7 @@
         model.apiChannels = data[@"api-channels"];
         model.apiArticles = data[@"api-articles"];
         model.apiSuffix = data[@"api-suffix"];
+        model.allowDownload = [data[@"allow-download"] boolValue];
     }
     return model;
 }

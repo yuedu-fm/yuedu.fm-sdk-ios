@@ -42,7 +42,8 @@
 }
 
 - (NSMutableURLRequest *)urlRequest {
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@", self.uri]];
+    NSString* urlString = [NSString stringWithFormat:@"%@?query&e＝%d", self.uri, (int)[[NSDate date] timeIntervalSince1970]];
+    NSURL *url = [NSURL URLWithString:[urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     request.timeoutInterval = 3.0f;
     return request;

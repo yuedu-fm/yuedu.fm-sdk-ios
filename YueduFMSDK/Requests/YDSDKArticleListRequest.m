@@ -12,9 +12,12 @@
 @implementation YDSDKArticleListRequest
 
 - (NSString* )uri {
+    if (!self.config) return @"";
+    
     if (self.articleId == 0) {
         self.articleId = self.config.latestArticleId;
     }
+
     return [NSString stringWithFormat:@"%@%d%@", self.config.apiArticles, self.articleId/self.config.section, self.config.apiSuffix];
 }
 
